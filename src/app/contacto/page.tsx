@@ -10,7 +10,7 @@ export default function ContactoPage() {
     <div className="flex flex-col min-h-screen bg-brand-bg text-stone-100 selection:bg-amber-500 selection:text-stone-950">
       <Header />
 
-      <main className="flex-grow py-16 md:py-24 bg-stone-900">
+      <main className="flex-grow py-16 md:py-24 bg-brand-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="max-w-4xl mx-auto bg-stone-950 border border-amber-500/30 rounded-3xl p-8 md:p-12 shadow-2xl animate-fadeIn">

@@ -13,7 +13,7 @@ module.exports = {
           dark: "#121212",
           card: "#1A1A1A",
           muted: "#A1A1AA",
-          bg: "#F7ED30"
+          bg: "#000000"
         }
       },
       keyframes: {

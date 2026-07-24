@@ -22,48 +22,27 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           
           {/* Logotipo */}
-          <Link href="/" className="flex items-center space-x-3 group" onClick={closeMenu}>
-            <div className="w-10 h-10 rounded-full bg-stone-900 text-amber-400 flex items-center justify-center font-bold text-xl shadow-md border border-amber-300 group-hover:scale-105 transition-transform">
+          <Link href="/" className="flex items-center space-x-3 group flex-shrink-0 min-w-0" onClick={closeMenu}>
+            <div className="w-10 h-10 shrink-0 rounded-full bg-stone-900 text-amber-400 flex items-center justify-center font-bold text-xl shadow-md border border-amber-300 group-hover:scale-105 transition-transform">
               E
             </div>
-            <div>
-              <span className="text-2xl font-extrabold tracking-wide text-stone-950 font-serif block leading-none">
+            <div className="min-w-0">
+              <span className="text-lg sm:text-2xl font-extrabold tracking-wide text-stone-950 font-serif block leading-none whitespace-nowrap">
                 Elsa Pérez Urbina
               </span>
-              <span className="text-xs font-semibold tracking-widest text-stone-800 uppercase block mt-1">
+              <span className="text-[10px] sm:text-xs font-semibold tracking-widest text-stone-800 uppercase block mt-1 whitespace-nowrap">
                 Cantante & Conductora
               </span>
             </div>
           </Link>
 
-          {/* Menú para pantallas grandes (Desktop) */}
-          <nav className="hidden md:flex space-x-8 font-semibold text-stone-900">
-            <Link href="/biografia" className="hover:text-stone-950 hover:underline transition-colors py-2">
-              Biografía
-            </Link>
-            <Link href="/trayectoria" className="hover:text-stone-950 hover:underline transition-colors py-2">
-              Trayectoria
-            </Link>
-            <Link href="/discografia" className="hover:text-stone-950 hover:underline transition-colors py-2">
-              Discografía
-            </Link>
-            <Link href="/galeria" className="hover:text-stone-950 hover:underline transition-colors py-2">
-              Galería
-            </Link>
-            <Link href="/comunicados" className="hover:text-stone-950 hover:underline transition-colors py-2">
-              Comunicados
-            </Link>
-            <Link href="/contacto" className="hover:text-stone-950 hover:underline transition-colors py-2">
-              Contacto
-            </Link>
-          </nav>
-
-          {/* Botón de Menú Hamburger (Pantallas Pequeñas / Mobile) */}
-          <div className="md:hidden flex items-center">
+          {/* Botón de Menú Hamburger — siempre visible en cualquier resolución, solo se expande al dar click */}
+          <div className="flex items-center flex-shrink-0">
             <button
               id="hamburger-button"
               type="button"
               onClick={toggleMenu}
+              aria-expanded={isMenuOpen}
               className="p-2.5 rounded-lg text-stone-900 bg-amber-400/80 hover:bg-amber-300 focus:outline-none focus:ring-2 focus:ring-stone-900 transition-all shadow"
               aria-label="Abrir menú de navegación"
             >
@@ -73,9 +52,9 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Despliegue del Menú Hamburguesa (Mobile Navigation Drawer) */}
+      {/* Despliegue del Menú Hamburguesa — mismo comportamiento en cualquier resolución */}
       {isMenuOpen && (
-        <div className="md:hidden bg-stone-900 text-amber-400 border-b border-amber-500/30 animate-fadeIn">
+        <div className="bg-stone-900 text-amber-400 border-b border-amber-500/30 animate-fadeIn">
           <div className="px-4 pt-4 pb-6 space-y-3 font-medium">
             <Link
               href="/biografia"

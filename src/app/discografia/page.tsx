@@ -19,15 +19,15 @@ export default function DiscografiaPage() {
     <div className="flex flex-col min-h-screen bg-brand-bg text-stone-100 selection:bg-amber-500 selection:text-stone-950">
       <Header />
 
-      <main className="flex-grow py-16 md:py-24 bg-stone-900 border-b border-stone-800">
+      <main className="flex-grow py-16 md:py-24 bg-brand-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-            <h1 className="text-4xl md:text-5xl font-extrabold font-serif text-amber-400 mb-4">
+            <h1 className="text-4xl md:text-5xl font-extrabold font-serif text-gray-400 mb-4">
               Sencillos y Discografía
             </h1>
-            <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full mb-4 animate-pulseGlow" />
-            <p className="text-stone-400 text-base md:text-lg">
+            <div className="w-24 h-1 bg-stone-900 mx-auto rounded-full mb-4 animate-pulseGlow" />
+            <p className="text-gray-400 text-base md:text-lg">
               Explora las producciones discográficas y sencillos más representativos interpretados por Elsa Pérez Urbina.
             </p>
           </div>

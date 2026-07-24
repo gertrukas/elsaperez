@@ -35,13 +35,13 @@ export default function Home() {
       <main className="flex-grow">
         
         {/* HERO SECTION estilo propuesta.png */}
-        <section id="inicio" className="relative bg-gradient-to-b from-stone-900 via-stone-950 to-stone-950 py-12 md:py-20 overflow-hidden border-b border-amber-500/20">
+        <section id="inicio" className="relative bg-brand-bg py-12 md:py-20 overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               
               {/* Imagen Principal Hero con animación hover zoom & float sutil */}
               <div className="lg:col-span-6 flex justify-center animate-fadeIn">
-                <div className="relative w-full max-w-lg aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-500/40 group hover:border-amber-400 transition-all duration-500">
+                <div className="relative w-full max-w-lg aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-2 border-stone-900/30 group hover:border-gray-400transition-all duration-500">
                   <Image
                     src="/images/IMG_1698.JPG"
                     alt="Elsa Pérez Urbina - Cantante de Música Popular Mexicana"
@@ -63,47 +63,47 @@ export default function Home() {
 
               {/* Texto Principal Hero animado con stagger */}
               <div className="lg:col-span-6 space-y-6 text-center lg:text-left animate-fadeInSlow">
-                <div className="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/30 px-4 py-1.5 rounded-full text-amber-400 text-sm font-semibold animate-float">
+                <div className="inline-flex items-center space-x-2 bg-stone-950 border border-stone-950 px-4 py-1.5 rounded-full text-amber-400 text-sm font-semibold animate-float">
                   <Mic className="w-4 h-4 animate-bounce" />
                   <span>Cantante, Conductora & Directora Musical</span>
                 </div>
                 
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-serif tracking-tight text-white leading-tight">
-                  La Voz y Pasión de la <span className="text-amber-400 underline decoration-amber-500/50 hover:text-amber-300 transition-colors">Música Mexicana</span>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-serif tracking-tight text-gray-400 leading-tight">
+                  La Voz y Pasión de la <span className="text-white px-2 rounded-lg">Música Mexicana</span>
                 </h1>
                 
-                <p className="text-stone-300 text-lg md:text-xl leading-relaxed">
+                <p className="text-gray-400 text-lg md:text-xl leading-relaxed">
                   Elsa Pérez Urbina es una destacada cantante mexicana especializada en música popular, mariachi y bolero. Con una trayectoria virtuosa de entrega artística, su voz ha cautivado a audiencias en México, Estados Unidos, Colombia y la República Dominicana.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
                   <a
                     href="#contacto"
-                    className="bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold px-7 py-3.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-1 hover:shadow-amber-500/25"
+                    className="bg-gray-400hover:bg-gray-400 text-amber-400 font-bold px-7 py-3.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-1"
                   >
                     Contrataciones
                   </a>
                   <a
                     href="#biografia"
-                    className="bg-stone-800 hover:bg-stone-700 text-stone-200 border border-stone-700 hover:border-amber-500/40 font-semibold px-7 py-3.5 rounded-xl transition-all transform hover:-translate-y-1"
+                    className="bg-white/70 hover:bg-white text-gray-400 border border-stone-900/20 hover:border-stone-900/40 font-semibold px-7 py-3.5 rounded-xl transition-all transform hover:-translate-y-1"
                   >
                     Conocer Semblanza
                   </a>
                 </div>
 
                 {/* Destacados rápidos con animaciones hover en tarjetas */}
-                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-stone-800 text-center">
-                  <div className="p-2 rounded-xl hover:bg-stone-900/60 transition-all duration-300 transform hover:-translate-y-1">
+                <div className="grid grid-cols-3 gap-4 pt-6 border-t border-stone-900/20 text-center">
+                  <div className="p-2 rounded-xl bg-stone-950/90 hover:bg-gray-400transition-all duration-300 transform hover:-translate-y-1">
                     <div className="text-2xl font-bold text-amber-400 font-serif">+20 Años</div>
-                    <div className="text-xs text-stone-400">Trayectoria Musical</div>
+                    <div className="text-xs text-stone-300">Trayectoria Musical</div>
                   </div>
-                  <div className="p-2 rounded-xl hover:bg-stone-900/60 transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="p-2 rounded-xl bg-stone-950/90 hover:bg-gray-400transition-all duration-300 transform hover:-translate-y-1">
                     <div className="text-2xl font-bold text-amber-400 font-serif">Directora</div>
-                    <div className="text-xs text-stone-400">Los Internacionales</div>
+                    <div className="text-xs text-stone-300">Los Internacionales</div>
                   </div>
-                  <div className="p-2 rounded-xl hover:bg-stone-900/60 transition-all duration-300 transform hover:-translate-y-1">
+                  <div className="p-2 rounded-xl bg-stone-950/90 hover:bg-gray-400transition-all duration-300 transform hover:-translate-y-1">
                     <div className="text-2xl font-bold text-amber-400 font-serif">Doctorado</div>
-                    <div className="text-xs text-stone-400">Honoris Causa</div>
+                    <div className="text-xs text-stone-300">Honoris Causa</div>
                   </div>
                 </div>
 
@@ -114,15 +114,15 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN BIOGRAFÍA (SEMBLANZA) */}
-        <section id="biografia" className="py-16 md:py-24 bg-stone-950 border-b border-stone-800">
+        <section id="biografia" className="py-16 md:py-24 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-amber-400 mb-4">
+              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-gray-400mb-4">
                 Biografía y Semblanza
               </h2>
-              <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full mb-4 animate-pulseGlow" />
-              <p className="text-stone-400 text-base md:text-lg">
+              <div className="w-20 h-1 bg-gray-400mx-auto rounded-full mb-4 animate-pulseGlow" />
+              <p className="text-gray-400 text-base md:text-lg">
                 Originaria de la Ciudad de México. Una vida consagrada al canto, la preservación de las bellas artes y la difusión de la música tradicional.
               </p>
             </div>
@@ -131,7 +131,7 @@ export default function Home() {
               
               {/* Imagen Biografía */}
               <div className="md:col-span-5 animate-fadeIn">
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl border border-stone-800 group hover:border-amber-500/50 transition-all duration-500">
+                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl border border-stone-900/20 group hover:border-amber-600/60 transition-all duration-500">
                   <Image
                     src="/images/IMG_1695.JPG"
                     alt="Elsa Pérez Urbina Biografía"
@@ -144,16 +144,16 @@ export default function Home() {
 
               {/* Texto de la Semblanza con interactividad al pasar el cursor */}
               <div className="md:col-span-7 space-y-5 text-stone-300 leading-relaxed animate-fadeInSlow">
-                <p className="p-3 rounded-lg hover:bg-stone-900/40 transition-colors">
+                <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
                   Inició sus estudios profesionales a los 17 años en la <strong className="text-amber-300">Escuela de Iniciación Artística de Bellas Artes</strong>, especializándose en canto y flauta traversa. Formó parte de la Compañía Mexicana de Ópera y del Coro Monumental de Bellas Artes. Continuó su formación en la Escuela de Música G. Martell y el Sindicato Único de Trabajadores de la Música (SUTM), perfeccionando su técnica vocal con maestros renombrados como Fernando Lima, Adriana Moreno y Orlando Muñiz.
                 </p>
-                <p className="p-3 rounded-lg hover:bg-stone-900/40 transition-colors">
+                <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
                   En 1998 fue coronada <strong className="text-amber-300">Reina de los Músicos de la Ciudad de México</strong>, un hito fundamental en su carrera. Ha participado en producciones de Televisa como <em>“Bailando por un sueño”</em>, <em>“Cantando por un sueño”</em> y diversas telenovelas, además de ser corista estelar junto a figuras de la talla de Thalía, Alejandra Guzmán, Samo y Gilberto Gless.
                 </p>
-                <p className="p-3 rounded-lg hover:bg-stone-900/40 transition-colors">
+                <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
                   Desde 2003 es la voz femenina principal de la prestigiada orquesta <strong className="text-amber-300">Los Internacionales</strong>, asumiendo su Administración y Dirección General desde septiembre de 2021. Su versatilidad le permite destacar al frente de agrupaciones con Mariachi, Big Band, ensambles de Jazz y formato de Orquesta Versátil.
                 </p>
-                <p className="p-3 rounded-lg hover:bg-stone-900/40 transition-colors">
+                <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
                   En su faceta como conductora y comunicadora, ha dirigido el programa <em>“Músicos en Contacto”</em> (SUTM) y fue conductora y productora del programa <em>“VIVA LA FIESTA”</em>. Durante tres años consecutivos ha sido invitada a cantar en las Mañanitas a la Virgen de Guadalupe en la Basílica de Guadalupe.
                 </p>
               </div>
@@ -164,15 +164,15 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN DISCOGRAFÍA Y SENCILLOS con animación Hover Lift en Tarjetas */}
-        <section id="discografia" className="py-16 md:py-24 bg-stone-900 border-b border-stone-800">
+        <section id="discografia" className="py-16 md:py-24 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-amber-400 mb-4">
+              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-gray-400mb-4">
                 Sencillos y Producciones Discográficas
               </h2>
-              <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full mb-4 animate-pulseGlow" />
-              <p className="text-stone-400 text-base md:text-lg">
+              <div className="w-20 h-1 bg-gray-400mx-auto rounded-full mb-4 animate-pulseGlow" />
+              <p className="text-gray-400 text-base md:text-lg">
                 Explora las producciones y canciones más destacadas interpretadas por Elsa Pérez Urbina.
               </p>
             </div>
@@ -181,7 +181,7 @@ export default function Home() {
               {sencillos.map((sencillo, index) => (
                 <div
                   key={index}
-                  className="bg-stone-950 border border-stone-800 hover:border-amber-500/60 p-6 rounded-2xl shadow-md hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-between group"
+                  className="bg-stone-950 border border-gray-400 hover:border-amber-500/60 p-6 rounded-2xl shadow-md hover:shadow-2xl hover:shadow-amber-500/10 transition-all duration-500 transform hover:-translate-y-2 flex flex-col justify-between group"
                 >
                   <div>
                     <div className="flex justify-between items-start mb-4">
@@ -197,7 +197,7 @@ export default function Home() {
                       {sencillo.descripcion}
                     </p>
                   </div>
-                  <div className="pt-4 border-t border-stone-900 flex items-center text-amber-400 font-semibold text-xs uppercase tracking-wider group-hover:translate-x-1 transition-transform">
+                  <div className="pt-4 border-t border-gray-400flex items-center text-amber-400 font-semibold text-xs uppercase tracking-wider group-hover:translate-x-1 transition-transform">
                     <span>Disponible en Plataformas Digitales</span>
                   </div>
                 </div>
@@ -208,22 +208,22 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN TRAYECTORIA Y RECONOCIMIENTOS con micro-animaciones */}
-        <section id="trayectoria" className="py-16 md:py-24 bg-stone-950 border-b border-stone-800">
+        <section id="trayectoria" className="py-16 md:py-24 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-amber-400 mb-4">
+              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-gray-400mb-4">
                 Reconocimientos y Distinciones
               </h2>
-              <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full mb-4 animate-pulseGlow" />
-              <p className="text-stone-400 text-base md:text-lg">
+              <div className="w-20 h-1 bg-gray-400mx-auto rounded-full mb-4 animate-pulseGlow" />
+              <p className="text-gray-400 text-base md:text-lg">
                 Premios y reconocimientos otorgados a su excelencia en la interpretación vocal y aportación a la cultura.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
                 <div className="w-14 h-14 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center mx-auto group-hover:bg-amber-500 group-hover:text-stone-950 transition-colors">
                   <Award className="w-7 h-7 group-hover:scale-110 transition-transform" />
                 </div>
@@ -233,7 +233,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
                 <div className="w-14 h-14 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center mx-auto group-hover:bg-amber-500 group-hover:text-stone-950 transition-colors">
                   <Mic className="w-7 h-7 group-hover:scale-110 transition-transform" />
                 </div>
@@ -243,7 +243,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
                 <div className="w-14 h-14 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center mx-auto group-hover:bg-amber-500 group-hover:text-stone-950 transition-colors">
                   <Heart className="w-7 h-7 group-hover:scale-110 transition-transform" />
                 </div>
@@ -253,7 +253,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 p-6 rounded-2xl text-center space-y-3 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl group">
                 <div className="w-14 h-14 bg-amber-500/20 text-amber-400 rounded-full flex items-center justify-center mx-auto group-hover:bg-amber-500 group-hover:text-stone-950 transition-colors">
                   <Radio className="w-7 h-7 group-hover:scale-110 transition-transform" />
                 </div>
@@ -269,15 +269,15 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN GALERÍA DE FOTOS con Zoom Smooth y Overlay Interactivo */}
-        <section id="galeria" className="py-16 md:py-24 bg-stone-900 border-b border-stone-800">
+        <section id="galeria" className="py-16 md:py-24 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
-              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-amber-400 mb-4">
+              <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-gray-400mb-4">
                 Galería Fotográfica
               </h2>
-              <div className="w-20 h-1 bg-amber-500 mx-auto rounded-full mb-4 animate-pulseGlow" />
-              <p className="text-stone-400 text-base md:text-lg">
+              <div className="w-20 h-1 bg-gray-400mx-auto rounded-full mb-4 animate-pulseGlow" />
+              <p className="text-gray-400 text-base md:text-lg">
                 Momentos especiales en conciertos, escenarios y sesiones fotográficas de Elsa Pérez Urbina.
               </p>
             </div>
@@ -286,7 +286,7 @@ export default function Home() {
               {galeriaFotos.map((foto, index) => (
                 <div
                   key={index}
-                  className="relative group aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border border-stone-800 bg-stone-950 cursor-pointer"
+                  className="relative group aspect-[4/5] rounded-2xl overflow-hidden shadow-xl border border-gray-400 bg-stone-950 cursor-pointer"
                 >
                   <Image
                     src={foto.src}
@@ -308,21 +308,21 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN COMUNICADOS / NOTICIAS con animaciones */}
-        <section id="comunicados" className="py-16 md:py-24 bg-stone-950 border-b border-stone-800">
+        <section id="comunicados" className="py-16 md:py-24 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 animate-fadeIn">
               <div>
-                <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-amber-400 mb-2">
+                <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-gray-400mb-2">
                   Comunicados & Noticias
                 </h2>
-                <p className="text-stone-400 text-base">Últimas novedades, presentaciones e información para prensa.</p>
+                <p className="text-gray-400 text-base">Últimas novedades, presentaciones e información para prensa.</p>
               </div>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
                 <div className="text-amber-400 text-xs font-semibold mb-2">ABRIL 2026</div>
                 <h3 className="text-xl font-bold font-serif text-white mb-3">Lanzamiento de "Segundo Aire"</h3>
                 <p className="text-stone-400 text-sm leading-relaxed">
@@ -330,7 +330,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
                 <div className="text-amber-400 text-xs font-semibold mb-2">DICIEMBRE 2025</div>
                 <h3 className="text-xl font-bold font-serif text-white mb-3">Mañanitas a la Virgen de Guadalupe</h3>
                 <p className="text-stone-400 text-sm leading-relaxed">
@@ -338,7 +338,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
+              <div className="bg-gray-400border border-gray-400 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
                 <div className="text-amber-400 text-xs font-semibold mb-2">INTERNACIONAL</div>
                 <h3 className="text-xl font-bold font-serif text-white mb-3">Difusión en Emisoras de Colombia</h3>
                 <p className="text-stone-400 text-sm leading-relaxed">
@@ -352,7 +352,7 @@ export default function Home() {
         </section>
 
         {/* SECCIÓN CONTACTO Y CONTRATACIONES */}
-        <section id="contacto" className="py-16 md:py-24 bg-stone-900">
+        <section id="contacto" className="py-16 md:py-24 bg-brand-bg">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div className="max-w-4xl mx-auto bg-stone-950 border border-amber-500/30 rounded-3xl p-8 md:p-12 shadow-2xl animate-fadeIn">
@@ -368,7 +368,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-t border-stone-800 pt-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border-t border-gray-400 pt-8">
                 
                 <div className="space-y-6">
                   <div className="flex items-center space-x-4 p-3 rounded-xl hover:bg-stone-900/60 transition-colors">
@@ -396,7 +396,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="bg-stone-900 border border-stone-800 p-6 rounded-2xl text-center space-y-4 hover:border-amber-500/40 transition-colors">
+                <div className="bg-gray-400border border-gray-400 p-6 rounded-2xl text-center space-y-4 hover:border-amber-500/40 transition-colors">
                   <h3 className="text-lg font-bold text-white font-serif">Contacto Inmediato por WhatsApp</h3>
                   <p className="text-stone-400 text-xs">
                     Comunícate directamente para agendar fechas, consultar disponibilidad de formatos musicales y paquetes.
@@ -419,7 +419,7 @@ export default function Home() {
         </section>
 
         {/* MODAL DE PRIVACIDAD SIMULADO (Aviso de Privacidad) */}
-        <section id="privacidad" className="py-12 bg-stone-950 border-t border-stone-800 text-stone-400 text-xs">
+        <section id="privacidad" className="py-12 bg-stone-950 border-t border-gray-400 text-stone-400 text-xs">
           <div className="max-w-4xl mx-auto px-4">
             <div className="flex items-center space-x-2 text-amber-400 font-bold mb-2">
               <ShieldCheck className="w-4 h-4" />
