@@ -33,7 +33,7 @@ export default function Home() {
               <div className="lg:col-span-6 flex justify-center animate-fadeIn">
                 <div className="relative w-full max-w-lg aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-2 border-stone-900/30 group hover:border-gray-400transition-all duration-500">
                   <Image
-                    src="/images/IMG_1698.JPG"
+                    src="/images/elsa-perez-urbina.jpeg"
                     alt="Elsa Pérez Urbina - Cantante de Música Popular Mexicana"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
