@@ -7,7 +7,7 @@ import { Award, Mic, Radio, Heart } from "lucide-react";
 
 export default function TrayectoriaPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-stone-950 text-stone-100 selection:bg-amber-500 selection:text-stone-950">
+    <div className="flex flex-col min-h-screen bg-brand-bg text-stone-100 selection:bg-amber-500 selection:text-stone-950">
       <Header />
 
       <main className="flex-grow py-16 md:py-24 bg-stone-950 border-b border-stone-800">

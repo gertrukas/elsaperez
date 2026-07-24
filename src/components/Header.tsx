@@ -22,7 +22,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           
           {/* Logotipo */}
-          <Link href="#inicio" className="flex items-center space-x-3 group" onClick={closeMenu}>
+          <Link href="/" className="flex items-center space-x-3 group" onClick={closeMenu}>
             <div className="w-10 h-10 rounded-full bg-stone-900 text-amber-400 flex items-center justify-center font-bold text-xl shadow-md border border-amber-300 group-hover:scale-105 transition-transform">
               E
             </div>
@@ -38,22 +38,22 @@ export default function Header() {
 
           {/* Menú para pantallas grandes (Desktop) */}
           <nav className="hidden md:flex space-x-8 font-semibold text-stone-900">
-            <Link href="#biografia" className="hover:text-stone-950 hover:underline transition-colors py-2">
+            <Link href="/biografia" className="hover:text-stone-950 hover:underline transition-colors py-2">
               Biografía
             </Link>
-            <Link href="#trayectoria" className="hover:text-stone-950 hover:underline transition-colors py-2">
+            <Link href="/trayectoria" className="hover:text-stone-950 hover:underline transition-colors py-2">
               Trayectoria
             </Link>
-            <Link href="#discografia" className="hover:text-stone-950 hover:underline transition-colors py-2">
+            <Link href="/discografia" className="hover:text-stone-950 hover:underline transition-colors py-2">
               Discografía
             </Link>
-            <Link href="#galeria" className="hover:text-stone-950 hover:underline transition-colors py-2">
+            <Link href="/galeria" className="hover:text-stone-950 hover:underline transition-colors py-2">
               Galería
             </Link>
-            <Link href="#comunicados" className="hover:text-stone-950 hover:underline transition-colors py-2">
+            <Link href="/comunicados" className="hover:text-stone-950 hover:underline transition-colors py-2">
               Comunicados
             </Link>
-            <Link href="#contacto" className="hover:text-stone-950 hover:underline transition-colors py-2">
+            <Link href="/contacto" className="hover:text-stone-950 hover:underline transition-colors py-2">
               Contacto
             </Link>
           </nav>
@@ -78,7 +78,7 @@ export default function Header() {
         <div className="md:hidden bg-stone-900 text-amber-400 border-b border-amber-500/30 animate-fadeIn">
           <div className="px-4 pt-4 pb-6 space-y-3 font-medium">
             <Link
-              href="#biografia"
+              href="/biografia"
               onClick={closeMenu}
               className="flex items-center space-x-3 px-3 py-2.5 rounded-md text-stone-200 hover:text-amber-400 hover:bg-stone-800 transition-colors"
             >
@@ -86,7 +86,7 @@ export default function Header() {
               <span>Biografía</span>
             </Link>
             <Link
-              href="#trayectoria"
+              href="/trayectoria"
               onClick={closeMenu}
               className="flex items-center space-x-3 px-3 py-2.5 rounded-md text-stone-200 hover:text-amber-400 hover:bg-stone-800 transition-colors"
             >
@@ -94,7 +94,7 @@ export default function Header() {
               <span>Trayectoria & Reconocimientos</span>
             </Link>
             <Link
-              href="#discografia"
+              href="/discografia"
               onClick={closeMenu}
               className="flex items-center space-x-3 px-3 py-2.5 rounded-md text-stone-200 hover:text-amber-400 hover:bg-stone-800 transition-colors"
             >
@@ -102,7 +102,7 @@ export default function Header() {
               <span>Discografía & Sencillos</span>
             </Link>
             <Link
-              href="#galeria"
+              href="/galeria"
               onClick={closeMenu}
               className="flex items-center space-x-3 px-3 py-2.5 rounded-md text-stone-200 hover:text-amber-400 hover:bg-stone-800 transition-colors"
             >
@@ -110,7 +110,7 @@ export default function Header() {
               <span>Galería de Fotos</span>
             </Link>
             <Link
-              href="#comunicados"
+              href="/comunicados"
               onClick={closeMenu}
               className="flex items-center space-x-3 px-3 py-2.5 rounded-md text-stone-200 hover:text-amber-400 hover:bg-stone-800 transition-colors"
             >
@@ -118,7 +118,7 @@ export default function Header() {
               <span>Comunicados & Prensa</span>
             </Link>
             <Link
-              href="#contacto"
+              href="/contacto"
               onClick={closeMenu}
               className="flex items-center space-x-3 px-3 py-2.5 rounded-md text-stone-200 hover:text-amber-400 hover:bg-stone-800 transition-colors"
             >

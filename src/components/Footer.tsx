@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
           <span className="hidden sm:inline text-stone-600">•</span>
           <Link
-            href="#privacidad"
+            href="/contacto#privacidad"
             className="hover:text-amber-400 transition-colors underline decoration-stone-600 underline-offset-4"
           >
             Aviso de Privacidad

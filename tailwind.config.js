@@ -12,7 +12,8 @@ module.exports = {
           yellow: "#EAB308",
           dark: "#121212",
           card: "#1A1A1A",
-          muted: "#A1A1AA"
+          muted: "#A1A1AA",
+          bg: "#F7ED30"
         }
       },
       keyframes: {
