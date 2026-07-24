@@ -18,17 +18,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Links Rápidos en Footer */}
-        <div className="flex flex-wrap justify-center gap-6 text-sm text-stone-400 mb-8 font-medium">
-          <Link href="/" className="hover:text-amber-400 transition-colors">Inicio</Link>
-          <Link href="/biografia" className="hover:text-amber-400 transition-colors">Biografía</Link>
-          <Link href="/trayectoria" className="hover:text-amber-400 transition-colors">Trayectoria</Link>
-          <Link href="/discografia" className="hover:text-amber-400 transition-colors">Discografía</Link>
-          <Link href="/galeria" className="hover:text-amber-400 transition-colors">Galería</Link>
-          <Link href="/comunicados" className="hover:text-amber-400 transition-colors">Comunicados</Link>
-          <Link href="/contacto" className="hover:text-amber-400 transition-colors">Contacto</Link>
-        </div>
-
         {/* Separador Pleca del Footer */}
         <div className="border-t border-stone-800 my-6" />
 
@@ -39,7 +28,7 @@ export default function Footer() {
           </div>
           <span className="hidden sm:inline text-stone-600">•</span>
           <Link
-            href="/contacto#privacidad"
+            href="#privacidad"
             className="hover:text-amber-400 transition-colors underline decoration-stone-600 underline-offset-4"
           >
             Aviso de Privacidad
