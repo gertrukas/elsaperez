@@ -1,9 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { Award, Music, Mic, Radio, Heart, ShieldCheck, Mail, Phone } from "lucide-react";
 
 export default function Home() {
@@ -26,14 +23,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col min-h-screen bg-brand-bg text-stone-100 selection:bg-amber-500 selection:text-stone-950">
-      
-      {/* Layout Header */}
-      <Header />
-
-      {/* Layout Contenido */}
-      <main className="flex-grow">
-        
+    <>
         {/* HERO SECTION estilo propuesta.png */}
         <section id="inicio" className="relative bg-brand-bg py-12 md:py-20 overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -431,14 +421,6 @@ export default function Home() {
           </div>
         </section>
 
-      </main>
-
-      {/* Layout Footer */}
-      <Footer />
-
-      {/* Botón WhatsApp Fijo */}
-      <WhatsAppButton />
-
-    </div>
+    </>
   );
 }

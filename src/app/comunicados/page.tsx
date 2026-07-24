@@ -1,15 +1,8 @@
 "use client";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/WhatsAppButton";
-
 export default function ComunicadosPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-brand-bg text-stone-100 selection:bg-amber-500 selection:text-stone-950">
-      <Header />
-
-      <main className="flex-grow py-16 md:py-24 bg-brand-bg">
+    <div className="flex-grow py-16 md:py-24 bg-brand-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
@@ -51,10 +44,6 @@ export default function ComunicadosPage() {
           </div>
 
         </div>
-      </main>
-
-      <Footer />
-      <WhatsAppButton />
     </div>
   );
 }

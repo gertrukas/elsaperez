@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Elsa Pérez Urbina - Cantante de Música Mexicana y Conductora",
@@ -14,7 +17,12 @@ export default function RootLayout({
   return (
     <html lang="es" className="scroll-smooth">
       <body className="antialiased bg-brand-bg text-stone-100 min-h-screen flex flex-col">
-        {children}
+        <Header />
+        <main className="flex-grow flex flex-col">
+          {children}
+        </main>
+        <Footer />
+        <WhatsAppButton />
       </body>
     </html>
   );
