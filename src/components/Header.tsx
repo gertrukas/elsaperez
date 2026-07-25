@@ -28,7 +28,7 @@ export default function Header() {
             </div>
             <div className="min-w-0">
               <span className="text-lg sm:text-2xl font-extrabold tracking-wide text-stone-950 font-serif block leading-none whitespace-nowrap">
-                Elsa Pérez Urbina
+                Elsa Urbina
               </span>
               <span className="text-[10px] sm:text-xs font-semibold tracking-widest text-stone-800 uppercase block mt-1 whitespace-nowrap">
                 Cantante & Conductora

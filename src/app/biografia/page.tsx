@@ -24,7 +24,7 @@ export default function BiografiaPage() {
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl border border-gray-400/20 group hover:border-amber-600/60 transition-all duration-500">
                 <Image
                   src="/images/IMG_1695.JPG"
-                  alt="Elsa Pérez Urbina Biografía"
+                  alt="Elsa Urbina Biografía"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />

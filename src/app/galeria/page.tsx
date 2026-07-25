@@ -25,7 +25,7 @@ export default function GaleriaPage() {
             </h1>
             <div className="w-24 h-1 bg-gray-400 mx-auto rounded-full mb-4 animate-pulseGlow" />
             <p className="text-gray-400 text-base md:text-lg">
-              Colección visual de presentaciones en concierto, giras y momentos de Elsa Pérez Urbina.
+              Colección visual de presentaciones en concierto, giras y momentos de Elsa Urbina.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export default function GaleriaPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent opacity-0 group-hover:opacity-95 transition-all duration-400 flex items-end p-6">
                   <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     <h4 className="text-white font-bold text-lg font-serif">{foto.title}</h4>
-                    <p className="text-amber-400 text-xs font-semibold">Elsa Pérez Urbina</p>
+                    <p className="text-amber-400 text-xs font-semibold">Elsa Urbina</p>
                   </div>
                 </div>
               </div>

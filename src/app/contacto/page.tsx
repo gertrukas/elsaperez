@@ -16,7 +16,7 @@ export default function ContactoPage() {
                 Contacto & Contrataciones
               </h1>
               <p className="text-stone-400 text-base max-w-xl mx-auto">
-                Lleva la voz y presencia de Elsa Pérez Urbina a tu evento con Mariachi, Orquesta Los Internacionales, Big Band o Trío de Jazz.
+                Lleva la voz y presencia de Elsa Urbina a tu evento con Mariachi, Orquesta Los Internacionales, Big Band o Trío de Jazz.
               </p>
             </div>
 
@@ -74,7 +74,7 @@ export default function ContactoPage() {
               <span>Aviso de Privacidad Simplificado</span>
             </div>
             <p className="leading-relaxed">
-              Elsa Pérez Urbina con domicilio y medio de contacto en elsaurbinamexico@gmail.com, utiliza la información proporcionada a través de este portal exclusivamente para atender solicitudes de contratación, información artística y atención al público. Los datos personales recabados se protegen conforme a la legislación aplicable en materia de protección de datos personales.
+              Elsa Urbina con domicilio y medio de contacto en elsaurbinamexico@gmail.com, utiliza la información proporcionada a través de este portal exclusivamente para atender solicitudes de contratación, información artística y atención al público. Los datos personales recabados se protegen conforme a la legislación aplicable en materia de protección de datos personales.
             </p>
           </div>
 

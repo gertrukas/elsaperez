@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="relative w-full max-w-lg aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border-2 border-stone-900/30 group hover:border-gray-400transition-all duration-500">
                   <Image
                     src="/images/elsa-perez-urbina.jpeg"
-                    alt="Elsa Pérez Urbina - Cantante de Música Popular Mexicana"
+                    alt="Elsa Urbina - Cantante de Música Popular Mexicana"
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                     priority
@@ -45,7 +45,7 @@ export default function Home() {
                       Música Popular Mexicana
                     </span>
                     <h2 className="text-2xl font-bold font-serif text-white drop-shadow">
-                      Elsa Pérez Urbina
+                      Elsa Urbina
                     </h2>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function Home() {
                 </h1>
                 
                 <p className="text-gray-400 text-lg md:text-xl leading-relaxed">
-                  Elsa Pérez Urbina es una destacada cantante mexicana especializada en música popular, mariachi y bolero. Con una trayectoria virtuosa de entrega artística, su voz ha cautivado a audiencias en México, Estados Unidos, Colombia y la República Dominicana.
+                  Elsa Urbina es una destacada cantante mexicana especializada en música popular, mariachi y bolero. Con una trayectoria virtuosa de entrega artística, su voz ha cautivado a audiencias en México, Estados Unidos, Colombia y la República Dominicana.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
@@ -124,7 +124,7 @@ export default function Home() {
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl border border-stone-900/20 group hover:border-amber-600/60 transition-all duration-500">
                   <Image
                     src="/images/IMG_1695.JPG"
-                    alt="Elsa Pérez Urbina Biografía"
+                    alt="Elsa Urbina Biografía"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
@@ -163,7 +163,7 @@ export default function Home() {
               </h2>
               <div className="w-20 h-1 bg-gray-400mx-auto rounded-full mb-4 animate-pulseGlow" />
               <p className="text-gray-400 text-base md:text-lg">
-                Explora las producciones y canciones más destacadas interpretadas por Elsa Pérez Urbina.
+                Explora las producciones y canciones más destacadas interpretadas por Elsa Urbina.
               </p>
             </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
               </h2>
               <div className="w-20 h-1 bg-gray-400mx-auto rounded-full mb-4 animate-pulseGlow" />
               <p className="text-gray-400 text-base md:text-lg">
-                Momentos especiales en conciertos, escenarios y sesiones fotográficas de Elsa Pérez Urbina.
+                Momentos especiales en conciertos, escenarios y sesiones fotográficas de Elsa Urbina.
               </p>
             </div>
 
@@ -287,7 +287,7 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent opacity-0 group-hover:opacity-95 transition-all duration-400 flex items-end p-6">
                     <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                       <h4 className="text-white font-bold text-lg font-serif">{foto.title}</h4>
-                      <p className="text-amber-400 text-xs font-semibold">Elsa Pérez Urbina</p>
+                      <p className="text-amber-400 text-xs font-semibold">Elsa Urbina</p>
                     </div>
                   </div>
                 </div>
@@ -351,7 +351,7 @@ export default function Home() {
                   Contrataciones Directas
                 </span>
                 <h2 className="text-3xl md:text-4xl font-extrabold font-serif text-white">
-                  Lleva la Música de Elsa Pérez Urbina a tu Evento
+                  Lleva la Música de Elsa Urbina a tu Evento
                 </h2>
                 <p className="text-stone-400 text-base max-w-xl mx-auto">
                   Disponible para presentaciones con Mariachi, Orquesta Versátil Los Internacionales, Big Band y formato de Jazz.
@@ -416,7 +416,7 @@ export default function Home() {
               <span>Aviso de Privacidad Simplificado</span>
             </div>
             <p className="leading-relaxed">
-              Elsa Pérez Urbina con domicilio y medio de contacto en elsaurbinamexico@gmail.com, utiliza la información proporcionada a través de este portal exclusivamente para atender solicitudes de contratación, información artística y atención al público. Los datos personales recabados se protegen conforme a la legislación aplicable en materia de protección de datos personales.
+              Elsa Urbina con domicilio y medio de contacto en elsaurbinamexico@gmail.com, utiliza la información proporcionada a través de este portal exclusivamente para atender solicitudes de contratación, información artística y atención al público. Los datos personales recabados se protegen conforme a la legislación aplicable en materia de protección de datos personales.
             </p>
           </div>
         </section>

@@ -11,7 +11,7 @@ export default function Footer() {
             E
           </div>
           <h2 className="text-3xl font-extrabold text-amber-400 font-serif tracking-wide text-center">
-            Elsa Pérez Urbina
+            Elsa Urbina
           </h2>
           <p className="text-stone-400 text-sm mt-1 text-center max-w-md">
             Embajadora de la Música Popular Mexicana, Cantante Versátil y Conductora de Televisión.
@@ -24,7 +24,7 @@ export default function Footer() {
         {/* Pleca Inferior con Derechos centrados y Aviso de Privacidad */}
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-stone-400 text-center">
           <div>
-            &copy; 2026 Elsa Pérez Urbina. Todos los derechos reservados.
+            &copy; 2026 Elsa Urbina. Todos los derechos reservados.
           </div>
           <span className="hidden sm:inline text-stone-600">•</span>
           <Link

@@ -11,7 +11,7 @@ export default function ComunicadosPage() {
             </h1>
             <div className="w-24 h-1  mx-auto rounded-full mb-4 animate-pulseGlow" />
             <p className="text-gray-400 text-base md:text-lg">
-              Últimas noticias, boletines informativos y presentaciones recientes de Elsa Pérez Urbina.
+              Últimas noticias, boletines informativos y presentaciones recientes de Elsa Urbina.
             </p>
           </div>
 

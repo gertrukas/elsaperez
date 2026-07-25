@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Elsa Pérez Urbina - Cantante de Música Mexicana y Conductora",
-  description: "Sitio oficial de Elsa Pérez Urbina. Cantante mexicana especializada en música popular, mariachi, bolero y conductora de televisión.",
+  title: "Elsa Urbina - Cantante de Música Mexicana y Conductora",
+  description: "Sitio oficial de Elsa Urbina. Cantante mexicana especializada en música popular, mariachi, bolero y conductora de televisión.",
 };
 
 export default function RootLayout({

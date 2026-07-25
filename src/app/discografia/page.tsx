@@ -22,7 +22,7 @@ export default function DiscografiaPage() {
             </h1>
             <div className="w-24 h-1 bg-stone-900 mx-auto rounded-full mb-4 animate-pulseGlow" />
             <p className="text-gray-400 text-base md:text-lg">
-              Explora las producciones discográficas y sencillos más representativos interpretados por Elsa Pérez Urbina.
+              Explora las producciones discográficas y sencillos más representativos interpretados por Elsa Urbina.
             </p>
           </div>
 
