@@ -5,12 +5,21 @@ import { Music } from "lucide-react";
 export default function DiscografiaPage() {
   const sencillos = [
     { titulo: "Segundo Aire", descripcion: "Debut como autora y compositora en colaboración con Luis Mogollón y Oscar Ignacio León.", badge: "Lanzamiento Reciente" },
-    { titulo: "La Gata Bajo la Lluvia", descripcion: "Versión del célebre tema de Rafael Pérez Botija, ganadora del galardón a 'Mejor Artista Romántica del Año' en NY.", badge: "Éxito Galardonado" },
+    { titulo: "El pastor", descripcion: "Una de las más bellas páginas de la música mexicana. Poco interpretada por su alto grado de dificultad: La versión de Elsa es una verdadera creación.", badge: "Próximo lanzamiento" },
+    { titulo: "Te voy a enseñar a querer", descripcion: "Muchas cantantes respaldan su trabajo con una buena técnica. Elsa Urbina lo hace, además, con una singular capacidad interpretativa.", badge: "Lanzamiento Reciente" },
+    { titulo: "Te sigo amando", descripcion: "A pesar de los vaivenes de la vida, Elsa conserva su gran pasión por la música… es su verdadero amor.", badge: "Lanzamiento Reciente" },
+    { titulo: "Cielo Rojo", descripcion: "Nada más difícil que incorporara al repertorio una canción que cuenta con múltiples versiones. La contribución de Elsa es cantarla con feminidad, sin gritos ni aspavientos..", badge: "Lanzamiento Reciente" },
+    { titulo: "La Gata Bajo la Lluvia", descripcion: "Versión del célebre tema de Rafael Pérez Botija, por la cual mereció el galardón a 'Mejor Artista Romántica del Año,' que le fue concedido en la ciudad de Nueva York.", badge: "Éxito Galardonado" },
     { titulo: "Amarte es un Placer", descripcion: "Primer sencillo como solista del compositor Juan Carlos Calderón, difundido internacionalmente en EE.UU., Colombia y República Dominicana.", badge: "Sencillo Principal" },
-    { titulo: "La Belleza", descripcion: "Álbum debut solista con Mariachi que rinde homenaje a sus raíces mexicanas con 11 temas tradicionales y bravíos.", badge: "Álbum Solista" },
-    { titulo: "La Llorona", descripcion: "Interpretación singular bilingüe en español y zapoteco con gran reconocimiento de la crítica.", badge: "Tradición Mexicana" },
-    { titulo: "El Toro y la Luna", descripcion: "Innovador ensamble de fusión flamenco-mexicano.", badge: "Fusión Cultural" },
+    { titulo: "La Belleza", descripcion: "Tema de su ´primera producción como solista, con la cual, acompañada por Mariachi, rinde homenaje a sus raíces mexicanas.", badge: "Álbum Solista" },
+    { titulo: "La Llorona", descripcion: "Interpretación, en español y zapoteco, del conocido tema tradicional, con el cual ha logrado                                     gran reconocimiento de público y crítica.", badge: "Tradición Mexicana" },
+    { titulo: "El Toro y la Luna", descripcion: "Por lo general, es una canción que interpretan hombres, con estilo operático. Son contadas las versiones femeninas. Elsa prefiere comunicar antes que impresionar.", badge: "Fusión Cultural" },
+    { titulo: "Búscame en tu corazón", descripcion: "En su interés por aceptar retos interpretativos en géneros con auténtica musicalidad, Elsa canta, al lado del compositor Martín Ramos, una cumbia bailable cuya letra contrasta los momentos difíciles con la felicidad.", badge: "Fusión Cultural" },
+    { titulo: "Granada", descripcion: "Por lo general, es una canción que interpretan hombres, con estilo operático. Son contadas las versiones femeninas. Elsa prefiere comunicar antes que impresionar.", badge: "Fusión Cultural" },
   ];
+
+
+
 
   return (
     <div className="flex-grow py-16 md:py-24 bg-brand-bg">

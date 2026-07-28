@@ -13,7 +13,7 @@ export default function TrayectoriaPage() {
             </h1>
             <div className="w-24 h-1 bg-stone-900 mx-auto rounded-full mb-4 animate-pulseGlow" />
             <p className="text-gray-400 text-base md:text-lg">
-              Premios, logros y distinciones otorgados a su excelencia en la interpretación vocal y aportación artística.
+              Otorgados por su excelencia interpretativa y por sus aportaciones a la cultura.
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function TrayectoriaPage() {
               </div>
               <h3 className="text-xl font-bold text-white font-serif group-hover:text-amber-400 transition-colors">Doctorado Honoris Causa</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Otorgado en 2021 por el Colegio Internacional de Profesionistas por sus aportes significativos a las Bellas Artes.
+                Otorgado, en 2021, por el Colegio Internacional de Profesionistas.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ export default function TrayectoriaPage() {
               </div>
               <h3 className="text-xl font-bold text-white font-serif group-hover:text-amber-400 transition-colors">Micrófono de Oro</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Galardón de la Asociación Nacional de Locutores de México por brillante trayectoria como cantante y conductora.
+                Galardón de la Asociación Nacional de Locutores de México.
               </p>
             </div>
 
@@ -45,7 +45,7 @@ export default function TrayectoriaPage() {
               </div>
               <h3 className="text-xl font-bold text-white font-serif group-hover:text-amber-400 transition-colors">Premios Yohualli</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Reconocimiento en Puebla por su destacada carrera como cantante y ejemplo de dedicación artística.
+                Diosa de plata ofrecida, en Puebla, por la organización que preside el Dr. David Pérez Méndez.
               </p>
             </div>
 
@@ -55,7 +55,7 @@ export default function TrayectoriaPage() {
               </div>
               <h3 className="text-xl font-bold text-white font-serif group-hover:text-amber-400 transition-colors">Latin Grammy Member</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Miembro de la Academia del Latin Grammy como intérprete femenina del álbum triple "Tour" de Los Internacionales.
+                Miembro de la Academia del Latin Grammy como intérprete femenina del álbum triple "Tour" de Los Internacionales. En 2007.
               </p>
             </div>
 

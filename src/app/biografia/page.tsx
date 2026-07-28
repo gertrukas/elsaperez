@@ -13,7 +13,7 @@ export default function BiografiaPage() {
             </h1>
             <div className="w-24 h-1 bg-gray-400 mx-auto rounded-full mb-4 animate-pulseGlow" />
             <p className="text-gray-400 text-base md:text-lg">
-              Originaria de la Ciudad de México. Una vida consagrada al canto, la preservación de las bellas artes y la difusión de la música tradicional.
+              Originaria de la Ciudad de México, ha dedicado su vida a la música, de una manera apasionada. Está convencida de que el arte habrá de salvar al mundo.
             </p>
           </div>
 
@@ -35,17 +35,19 @@ export default function BiografiaPage() {
             {/* Texto de la Semblanza */}
             <div className="md:col-span-7 space-y-5 text-stone-300 leading-relaxed animate-fadeInSlow">
               <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
-                Inició sus estudios profesionales a los 17 años en la <strong className="text-amber-300">Escuela de Iniciación Artística de Bellas Artes</strong>, especializándose en canto y flauta traversa. Formó parte de la Compañía Mexicana de Ópera y del Coro Monumental de Bellas Artes. Continuó su formación en la Escuela de Música G. Martell y el Sindicato Único de Trabajadores de la Música (SUTM), perfeccionando su técnica vocal con maestros renombrados como Fernando Lima, Adriana Moreno y Orlando Muñiz.
+                Inició sus estudios profesionales, de canto y flauta traversa, a la edad de 17 años, en la <strong className="text-amber-300">Escuela de Iniciación Artística de Bellas Artes</strong>. Formó parte de la Compañía Mexicana de Ópera y del Coro Monumental de Bellas Artes. Continuó su formación en la Escuela de Música G. Martell y en la Escuela de Capacitación Musical, del Sindicato Único de Trabajadores de la Música de la Ciudad de México. Otros de sus maestros de técnica vocal han sido los prestigiados Fernando Lima, Adriana Moreno y Orlando Muñiz.
               </p>
               <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
-                En 1998 fue coronada <strong className="text-amber-300">Reina de los Músicos de la Ciudad de México</strong>, un hito fundamental en su carrera. Ha participado en producciones de Televisa como <em>“Bailando por un sueño”</em>, <em>“Cantando por un sueño”</em> y diversas telenovelas, además de ser corista estelar junto a figuras de la talla de Thalía, Alejandra Guzmán, Samo y Gilberto Gless.
+                En 1998 fue coronada <strong className="text-amber-300">Reina de los Músicos del SUTM.</strong> Ha participado en producciones de televisión, como “Bailando por un sueño”, “Cantando por un sueño” y diversas telenovelas, además de ser corista de figuras estelares como Alejandra Guzmán, Gilberto Gless, Thalía y Samo.
               </p>
               <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
-                Desde 2003 es la voz femenina principal de la prestigiada orquesta <strong className="text-amber-300">Los Internacionales</strong>, asumiendo su Administración y Dirección General desde septiembre de 2021. Su versatilidad le permite destacar al frente de agrupaciones con Mariachi, Big Band, ensambles de Jazz y formato de Orquesta Versátil.
+                Desde hace 23 años es la principal voz femenina principal de <strong className="text-amber-300">Los Internacionales, la Orquesta</strong>, de la cual asumió su Administración y Dirección General desde septiembre de 2021. Su capacidad interpretativa y versatilidad le permiten acompañarse de un mariachi, trío, ensambles de jazz con diversas dotaciones, agrupaciones de pop, etc..
               </p>
               <p className="p-4 rounded-xl bg-stone-950/95 border border-gray-400/60 shadow-md hover:border-amber-500/50 transition-colors">
-                En su faceta como conductora y comunicadora, ha dirigido el programa <em>“Músicos en Contacto”</em> (SUTM) y fue conductora y productora del programa <em>“VIVA LA FIESTA”</em>. Durante tres años consecutivos ha sido invitada a cantar en las Mañanitas a la Virgen de Guadalupe en la Basílica de Guadalupe.
+                En su faceta como comunicadora, ha dirigido el programa “<strong className="text-amber-300">Músicos en Contacto” (SUTM) </strong>y fue conductora y productora del programa <strong className="text-amber-300">“VIVA LA FIESTA, el mundo de las celebraciones”</strong>.
+                <br/><br/>Durante tres años consecutivos ha sido invitada a cantar, en la Basílica, <strong className="text-amber-300">las Mañanitas a la Virgen de Guadalupe</strong>.
               </p>
+
             </div>
 
           </div>

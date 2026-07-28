@@ -21,7 +21,7 @@ export default function ComunicadosPage() {
               <div className="text-amber-400 text-xs font-semibold mb-2">ABRIL 2026</div>
               <h3 className="text-xl font-bold font-serif text-white mb-3">Lanzamiento de "Segundo Aire"</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Elsa Urbina estrena su tema "Segundo aire", debutando como autora y compositora en colaboración con Luis Mogollón y Oscar Ignacio León.
+                Elsa Urbina debuta como autora y compositora con el tema "Segundo aire", que escribió al lado de Luis Mogollón y Oscar Ignacio León.
               </p>
             </div>
 
@@ -29,15 +29,16 @@ export default function ComunicadosPage() {
               <div className="text-amber-400 text-xs font-semibold mb-2">DICIEMBRE 2025</div>
               <h3 className="text-xl font-bold font-serif text-white mb-3">Mañanitas a la Virgen de Guadalupe</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Por tercer año consecutivo, Elsa tuvo el honor de participar en la tradicional serenata a la Virgen de Guadalupe en la Basílica.
+                Por tercer año consecutivo, Elsa tuvo el honor de participar, en la Basílica, en la tradicional serenata a la Virgen de Guadalupe.
               </p>
             </div>
 
             <div className="bg-stone-900 border border-stone-800 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 transform hover:-translate-y-1.5 hover:shadow-lg">
               <div className="text-amber-400 text-xs font-semibold mb-2">INTERNACIONAL</div>
-              <h3 className="text-xl font-bold font-serif text-white mb-3">Difusión en Emisoras de Colombia</h3>
+              <h3 className="text-xl font-bold font-serif text-white mb-3">Difusión en Emisoras del Continente Americano</h3>
               <p className="text-stone-400 text-sm leading-relaxed">
-                Sus temas musicales sobrepasan fronteras con una extraordinaria recepción en más de 350 emisoras de radio en Colombia.
+                Sus temas han cruzado fronteras y logrado una extraordinaria recepción en más de 350 estaciones radiofónicas
+
               </p>
             </div>
 

@@ -14,7 +14,7 @@ export default function Footer() {
             Elsa Urbina
           </h2>
           <p className="text-stone-400 text-sm mt-1 text-center max-w-md">
-            Embajadora de la Música Popular Mexicana, Cantante Versátil y Conductora de Televisión.
+            Embajadora de la Música Internacional, popular mexicana y Conductora de Televisión.
           </p>
         </div>
 
