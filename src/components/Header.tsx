@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, Music, Disc, Award, Newspaper, Mail } from "lucide-react";
@@ -36,6 +36,12 @@ export default function Header() {
             </div>
           </Link>
 
+          <div className="flex items-center flex-shrink-0 ml-auto mr-2">
+            <a href="https://www.facebook.com/share/19vu3wiodG/?mibextid=wwXIfr"><Image src="/images/social/facebook.png" width={30} height={30} alt="facebook"/></a>
+            <a href="https://www.instagram.com/elsa_urbina?utm_source=qr"><Image src="/images/social/instagram.png" width={30} height={30} alt="facebook"/></a>
+            <a href="https://www.tiktok.com/@elsaurbina31?_r=1&_t=ZS-98QGG2qVDmu"><Image src="/images/social/tiktok.png" width={30} height={30} alt="facebook"/></a>
+            <a href="https://youtube.com/@elsaurbinaoficial?si=GouvXso4ksrr6M3U"><Image src="/images/social/youtube.png" width={30} height={30} alt="facebook"/></a>
+          </div>
           {/* Botón de Menú Hamburger — siempre visible en cualquier resolución, solo se expande al dar click */}
           <div className="flex items-center flex-shrink-0">
             <button

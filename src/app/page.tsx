@@ -36,7 +36,8 @@ export default function Home() {
                     src="/images/elsa-perez-urbina.jpeg"
                     alt="Elsa Urbina - Cantante de Música Popular Mexicana"
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+
+                    className=" group-hover:scale-110 transition-transform duration-700 ease-out"
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-500" />
@@ -63,7 +64,7 @@ export default function Home() {
                 </h1>
                 
                 <p className="text-gray-400 text-lg md:text-xl leading-relaxed">
-                  Elsa Urbina es una experimentada cantante mexicana, con casi 30 años de experiencia, capaz de abordar géneros tan apreciados en el mundo, como el mariachi y el bolero, entre otros. Se ha presentado, con éxito, en México, los Estados Unidos, Colombia y República Dominicana.
+                  Elsa Urbina es una experimentada cantante mexicana, con más de 30 años de actividad , capaz de abordar géneros tan apreciados en el mundo, como el mariachi, el bolero, la balada, estándares de jazz, entre otros.
                 </p>
 
                 <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
@@ -107,7 +108,11 @@ export default function Home() {
           </div>
         </section>
 
-
+        <section>
+          <div className="flex flex-wrap justify-center  mb-4 px-4">
+            <Image src="/images/elsa-urbina-portada.jpeg" alt="Audioara" width={0} height={0} sizes="100vw" className="w-full h-auto rounded-2xl" />
+          </div>
+        </section>
 
         {/* SECCIÓN CONTACTO Y CONTRATACIONES */}
         <section id="contacto" className="py-16 md:py-24 bg-brand-bg">
@@ -135,6 +140,10 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="text-xs text-stone-400 uppercase font-semibold">Correo Electrónico</div>
+                      <a href="mailto:info@elsaurbina.com" className="text-white hover:text-amber-400 font-bold transition-colors">
+                        info@elsaurbina.com
+                      </a>
+                      <br/>
                       <a href="mailto:elsaurbinamexico@gmail.com" className="text-white hover:text-amber-400 font-bold transition-colors">
                         elsaurbinamexico@gmail.com
                       </a>

@@ -13,13 +13,23 @@ export default function GaleriaPage() {
     { src: "/images/IMG_1697.jpg", title: "Retrato Clásico" },
     { src: "/images/IMG_1700.JPG", title: "Sesión Fotográfica" },
     { src: "/images/IMG_1708.JPG", title: "Presentación Artística" },
+    { src: "/images/elsa-urbina-y-vientos-de-bronce.jpeg", title: "Ofrecen música religiosa para ceremonias." },
+    { src: "/images/elenco-atrevete-a-olvidarle.jpeg", title: "Parte del elenco de la telenovela “Atrévete a olvidarle”." },
+    { src: "/images/elsa-urbina.jpeg", title: "" },
+    { src: "/images/elsa-urbina-cantando.jpeg", title: "Cantando." },
+    { src: "/images/elsa-urbina-noche-de-gala.jpeg", title: "En cuarteto de Jazz." },
+    { src: "/images/microfono-de-oro.jpeg", title: "Recibiendo el apreciado Micrófono de Oro a lado de Jesús Vázquez “Chucas” de su Mariachi Nuestro Mexico." },
+
   ];
 
   return (
     <div className="flex-grow py-16 md:py-24 bg-brand-bg">
+
+
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
-          <div className="text-center max-w-3xl mx-auto mb-16 animate-fadeIn">
+          <div className="text-center max-w-3xl mx-auto mb-8 animate-fadeIn">
             <h1 className="text-4xl md:text-5xl font-extrabold font-serif text-gray-400 mb-4">
               Galería Fotográfica
             </h1>
@@ -27,6 +37,10 @@ export default function GaleriaPage() {
             <p className="text-gray-400 text-base md:text-lg">
               Colección visual de presentaciones en concierto, giras y momentos de Elsa Urbina.
             </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center  mb-4">
+              <Image src="/images/elsa-urbina-viva-la-fiesta.jpeg" alt="Audioara" width={0} height={0} sizes="100vw" className="w-full h-auto rounded-2xl" />
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -52,6 +66,8 @@ export default function GaleriaPage() {
           </div>
 
         </div>
+
     </div>
+
   );
 }
